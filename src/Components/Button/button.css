@@ -1,0 +1,34 @@
+.container
+{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 40%;
+    min-width: 400px;
+    height: 20%;
+    border: 1px solid white;
+    color: white;
+    font-size: max(0.8rem, 5px);
+    padding: 1%;
+}
+.upper > p
+{
+    margin-top: 10px;
+}
+.lower
+{
+    margin-top: 20px;
+}
+.button
+{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(255, 153, 0);
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 90px;
+    min-height: 40px;
+    font-weight: bolder;
+}
