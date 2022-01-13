@@ -1,0 +1,36 @@
+.container-breeding
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-container
+{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.image-container > img 
+{
+    width: 60vw;
+    height: 100%;
+}
+.link-container
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 60vw;
+    height: 6vh;
+    margin-top: 1%;
+    color: white;
+    border: 2px solid rgb(255, 153, 0);
+    
+}
+.breed
+{
+    margin-left: 20px;
+}

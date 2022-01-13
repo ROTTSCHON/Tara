@@ -1,3 +1,4 @@
+
 .container
 {
     position: absolute;
@@ -31,4 +32,10 @@
     min-width: 90px;
     min-height: 40px;
     font-weight: bolder;
+    color: white;
+    transition: 0.5s;
+}
+.button:hover
+{
+    box-shadow: 0 0px 15px 0 rgb(255, 153, 0), 0 6px 20px 0 rgb(255, 153, 0);;
 }
