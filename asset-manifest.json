@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vectra/static/css/main.bf0e26f0.css",
-    "main.js": "/Vectra/static/js/main.2432ccb5.js",
+    "main.js": "/Vectra/static/js/main.6ddbc18a.js",
     "static/js/787.f7922cfa.chunk.js": "/Vectra/static/js/787.f7922cfa.chunk.js",
     "static/media/breeding.jpg": "/Vectra/static/media/breeding.de2104bbae377e32d4a1.jpg",
     "static/media/rot.png": "/Vectra/static/media/rot.1bb393277c7d43ffa539.png",
@@ -9,11 +9,11 @@
     "static/media/background.jpg": "/Vectra/static/media/background.67a832adec1cbee7307e.jpg",
     "index.html": "/Vectra/index.html",
     "main.bf0e26f0.css.map": "/Vectra/static/css/main.bf0e26f0.css.map",
-    "main.2432ccb5.js.map": "/Vectra/static/js/main.2432ccb5.js.map",
+    "main.6ddbc18a.js.map": "/Vectra/static/js/main.6ddbc18a.js.map",
     "787.f7922cfa.chunk.js.map": "/Vectra/static/js/787.f7922cfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf0e26f0.css",
-    "static/js/main.2432ccb5.js"
+    "static/js/main.6ddbc18a.js"
   ]
 }
