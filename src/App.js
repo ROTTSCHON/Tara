@@ -10,7 +10,7 @@ import Home from './Pages/Home/home';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/Vectra'>
     <div className="app">
     <Routes>
     <Route exact path="/Vectra" element={<><Home/></>}/>
