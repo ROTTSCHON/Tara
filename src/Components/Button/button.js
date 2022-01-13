@@ -16,7 +16,7 @@ import "./button.css"
                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className="lower">
-              <Link to="/">
+              <Link to="/About">
                   <button className="button">About us</button>
               </Link>
               </div>

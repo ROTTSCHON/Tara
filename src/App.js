@@ -5,17 +5,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Header from './Components/Header/header';
-import Buttons from './Components/Button/button';
+import About from './Pages/About/about';
+import Home from './Pages/Home/home';
 
 function App() {
   return (
     <Router>
     <div className="app">
-    <Header/>
     <Routes>
-    <Route exact path="/Vectra" element={<><Buttons/></>}/>
-    <Route exact path="/"element={<Link to="/Vectra">Merge</Link>}/>
+    <Route exact path="/Vectra" element={<><Home/></>}/>
+    <Route exact path="/About"element={<><About/></>}/>
     </Routes>
     </div>
     </Router>
