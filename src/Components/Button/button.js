@@ -17,7 +17,7 @@ import logo from "../../images/logotara.png"
                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className="lower">
-              <Link to="/About">
+              <Link to="/Vectra/About">
                   <button className="button">About us</button>
               </Link>
               </div>
