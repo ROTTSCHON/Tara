@@ -10,7 +10,7 @@
   font-family: 'Luxurious Roman';
   display: flex;
   flex-direction: column;
-  background-image: url(/src/assets/rot.png);
+  background-image: url(/src/images/rot.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

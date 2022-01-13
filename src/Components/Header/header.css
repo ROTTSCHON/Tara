@@ -4,10 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     text-align: center;
     color: white;
     width: 100%;
     font-size: 1.5em;
     margin-top: 1.5em;
     letter-spacing: 1vw;
+}
+span
+{
+    margin: 0 1% 0 0;
 }
