@@ -1,9 +1,12 @@
 .container-breeding
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    width: 60vw;
+    border: 2px solid rgb(255, 153, 0);
+    margin-top: 2%;
 }
 .image-container
 {
@@ -21,16 +24,19 @@
 {
     display: flex;
     align-items: center;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
-    width: 60vw;
     height: 6vh;
-    margin-top: 1%;
     color: white;
-    border: 2px solid rgb(255, 153, 0);
-    
 }
 .breed
 {
     margin-left: 20px;
+}
+.logo
+{
+    height: 5vh;
+    width: 3vw;
+    color: white;
 }

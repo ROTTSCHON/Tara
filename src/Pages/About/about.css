@@ -1,9 +1,12 @@
 .about-page
 {
     width: 100vw;
-    height: 100vh;
-
-    background-image: url(/src/images/background.jpg);
+    height: 100%;
+    background-image: url(/src/images/background4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

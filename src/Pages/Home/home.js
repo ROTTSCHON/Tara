@@ -1,6 +1,7 @@
 import react from "react";
 import Header from "../../Components/Header/header";
 import Buttons from "../../Components/Button/button";
+import "./home.css"
 
 function Home(){
     return(
