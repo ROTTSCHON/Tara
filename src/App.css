@@ -16,3 +16,13 @@
   height: 100%;
   width: 100%;
 }
+
+@media only screen and (max-width: 800px) {
+  .app{
+    height: 100vh;
+    background-image: url(/src/images/rotphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
