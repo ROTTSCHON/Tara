@@ -34,6 +34,7 @@
     color: white;
     transition: 0.5s;
 }
+
 .button:hover
 {
     box-shadow: 0 0px 15px 0 rgb(255, 153, 0), 0 6px 20px 0 rgb(255, 153, 0);;
@@ -44,5 +45,6 @@
 {
     left: 5vw;
     width: 90vw;
+    bottom: 15%;
 }
 }
