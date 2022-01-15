@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/Vectra/static/css/main.29459b3e.css",
-    "main.js": "/Vectra/static/js/main.b474d5a6.js",
+    "main.css": "/Vectra/static/css/main.beadd004.css",
+    "main.js": "/Vectra/static/js/main.432adccc.js",
     "static/js/787.f7922cfa.chunk.js": "/Vectra/static/js/787.f7922cfa.chunk.js",
     "static/media/ierarhie.png": "/Vectra/static/media/ierarhie.ea0751d0bf790183b336.png",
     "static/media/tara2.PNG": "/Vectra/static/media/tara2.ba0c06dc0ec4df9174a0.PNG",
     "static/media/tara5.PNG": "/Vectra/static/media/tara5.8c203fd08d69638dfd74.PNG",
     "static/media/tara1.PNG": "/Vectra/static/media/tara1.5d412cc8f73082d28cc5.PNG",
     "static/media/certificat.png": "/Vectra/static/media/certificat.11f904b8cc9b03ba75a0.png",
-    "static/media/background4.jpg": "/Vectra/static/media/background4.6465a0247b2ba5f7fd91.jpg",
-    "static/media/rotphone.png": "/Vectra/static/media/rotphone.b2fe60e983b8c8f8b902.png",
-    "static/media/rot.png": "/Vectra/static/media/rot.1bb393277c7d43ffa539.png",
+    "static/media/background 1.jpeg": "/Vectra/static/media/background 1.d064605dada6472c2edf.jpeg",
     "static/media/logotara.png": "/Vectra/static/media/logotara.0cc41f96fde09b7d963d.png",
     "index.html": "/Vectra/index.html",
-    "main.29459b3e.css.map": "/Vectra/static/css/main.29459b3e.css.map",
-    "main.b474d5a6.js.map": "/Vectra/static/js/main.b474d5a6.js.map",
+    "main.beadd004.css.map": "/Vectra/static/css/main.beadd004.css.map",
+    "main.432adccc.js.map": "/Vectra/static/js/main.432adccc.js.map",
     "787.f7922cfa.chunk.js.map": "/Vectra/static/js/787.f7922cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29459b3e.css",
-    "static/js/main.b474d5a6.js"
+    "static/css/main.beadd004.css",
+    "static/js/main.432adccc.js"
   ]
 }
