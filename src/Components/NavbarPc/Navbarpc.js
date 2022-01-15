@@ -1,19 +1,16 @@
 import React from "react";
 import {FaFacebookSquare, FaInstagramSquare} from "react-icons/fa"
 import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
     Link
   } from "react-router-dom";
-  import "./breeding.css"
-function Breeding(){
+  import "./Navbarpc.css"
+function Navbarpc(){
     return(
-        <div className="container-breeding">
+        <div className="container-navbar-pc">
             <div className="link-container">
                 <Link to="/Vectra/"><button className="button breed">Home</button></Link>
                 <Link to="/Vectra/Breeding"><button className="button breed">Breeding</button></Link>
-                <Link to="/Vectra/Contact"><button className="button breed">Contact</button></Link>
+                <Link to="/Vectra/Sale"><button className="button breed">FOR SALE</button></Link>
             </div>
             <div className="logo-container">
                 <a href="https://www.facebook.com/denis.denisuk.16"><FaFacebookSquare className="logo facebook"/></a>
@@ -23,4 +20,4 @@ function Breeding(){
     )
 }
 
-export default Breeding
+export default Navbarpc
