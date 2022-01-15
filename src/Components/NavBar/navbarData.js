@@ -9,8 +9,8 @@ export const navbarData = [
         cName: 'nav-text'
     },
     {
-        title: "About",
-        path: "/Vectra/About",
+        title: "Breeding",
+        path: "/Vectra/Breeding",
         icon: <FaIcons.FaInfo/>,
         cName: 'nav-text'
     },
