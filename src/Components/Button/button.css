@@ -8,7 +8,7 @@
     height: auto;
     border: 2px solid rgb(255, 153, 0);
     color: white;
-    font-size: max(0.8rem, 5px);
+    font-size: max(1rem, 5px);
     padding: 1%;
 }
 .upper > p

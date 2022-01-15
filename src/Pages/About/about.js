@@ -6,6 +6,7 @@ import { sliderData } from "../../Components/Slider/sliderData";
 import Text from "../../Components/Text/text";
 import NavBar from "../../Components/NavBar/navbar";
 import Navbarpc from "../../Components/NavbarPc/Navbarpc";
+import Footer from "../../Components/Footer/footer";
 
 function About(){
     return(
@@ -15,7 +16,7 @@ function About(){
             <Navbarpc/>
             <Text/>
             <ImageSlider  slides={sliderData} />
-            
+            <Footer/>
         </div>
     )
 }
