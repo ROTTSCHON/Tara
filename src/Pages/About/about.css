@@ -4,7 +4,7 @@ body::-webkit-scrollbar {
 }
 body {
     -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    scrollbar-width: none; 
 }
 .about-page
 {

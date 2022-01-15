@@ -16,3 +16,24 @@ span
 {
     margin: 0 1% 0 0;
 }
+.logo-image
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+
+@media only screen and (max-width: 800px)  {
+    
+    .header
+    {
+        font-size: 1rem;
+    }
+    .logo-image
+    {
+        height: 5vh;
+        width: 5vh;
+    }
+    
+
+}

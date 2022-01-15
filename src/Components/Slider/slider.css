@@ -75,3 +75,20 @@
     color: rgb(255, 204, 128);
     transition: 1s;
 }
+
+@media only screen and (max-width: 800px) 
+{
+    .title.active
+    {
+        font-size: 1.5rem;
+    }
+    .image
+    {
+        width: 70vw;
+        height: 30vh;
+    }
+    .arrow
+    {
+        font-size: 3rem;
+    }
+}
