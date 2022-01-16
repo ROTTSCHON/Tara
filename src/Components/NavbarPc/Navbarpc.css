@@ -34,9 +34,17 @@
 {
     margin-left: 20px;
 }
-.logo
+.logo-container
 {
     height: 5vh;
+    min-width: 70px;
+    min-height: 40px;
+}
+.logo
+{
+    min-width: 70px;
+    min-height: 40px;
+    height: 100%;
     width: 3vw;
     color: white;
 }

@@ -1,14 +1,13 @@
 import React from 'react';
 import './slider.css'
-import { sliderData } from './sliderData';
 import { useState } from 'react';
 import {FaAngleRight, FaAngleLeft} from 'react-icons/fa'
 
 
-const ImageSlider = ({slides}) =>
+const ImageSlider = ({content}) =>
 {
     const [current, setCurrent] = useState(0)
-    const length = slides.length
+    const length = content.length
 
     const nextPhoto = () =>{
         setCurrent(current === length - 1 ? 0 : current + 1)
@@ -19,7 +18,7 @@ const ImageSlider = ({slides}) =>
     return(
             <section className="slider">
             <div>
-            {sliderData.map((slides, index) =>
+            {content.map((slides, index) =>
             {
                 return(
                 <h1 className={index === current ? 'title active' : 'title inactive'}
@@ -31,7 +30,7 @@ const ImageSlider = ({slides}) =>
             </div>
             <div className='content'>
             <FaAngleLeft className="arrow left" onClick={lastPhoto}/>
-            {sliderData.map((slides, index) =>
+            {content.map((slides, index) =>
             {
                 return(
                     <div className={index === current ? 'slide active' : 'slide inactive'}

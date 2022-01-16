@@ -15,7 +15,7 @@ function About(){
             <NavBar/>
             <Navbarpc/>
             <Text/>
-            <ImageSlider  slides={sliderData} />
+            <ImageSlider  content={sliderData} />
             <Footer/>
         </div>
     )
