@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Vectra/static/css/main.beadd004.css",
-    "main.js": "/Vectra/static/js/main.73dda0e1.js",
+    "main.css": "/Vectra/static/css/main.9143eb53.css",
+    "main.js": "/Vectra/static/js/main.7fc39a41.js",
     "static/js/787.f7922cfa.chunk.js": "/Vectra/static/js/787.f7922cfa.chunk.js",
     "static/media/ierarhie.png": "/Vectra/static/media/ierarhie.ea0751d0bf790183b336.png",
     "static/media/tara2.PNG": "/Vectra/static/media/tara2.ba0c06dc0ec4df9174a0.PNG",
@@ -11,12 +11,12 @@
     "static/media/background 1.jpeg": "/Vectra/static/media/background 1.d064605dada6472c2edf.jpeg",
     "static/media/logotara.png": "/Vectra/static/media/logotara.0cc41f96fde09b7d963d.png",
     "index.html": "/Vectra/index.html",
-    "main.beadd004.css.map": "/Vectra/static/css/main.beadd004.css.map",
-    "main.73dda0e1.js.map": "/Vectra/static/js/main.73dda0e1.js.map",
+    "main.9143eb53.css.map": "/Vectra/static/css/main.9143eb53.css.map",
+    "main.7fc39a41.js.map": "/Vectra/static/js/main.7fc39a41.js.map",
     "787.f7922cfa.chunk.js.map": "/Vectra/static/js/787.f7922cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.beadd004.css",
-    "static/js/main.73dda0e1.js"
+    "static/css/main.9143eb53.css",
+    "static/js/main.7fc39a41.js"
   ]
 }
