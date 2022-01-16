@@ -9,9 +9,10 @@
   font-family: 'Luxurious Roman';
   display: flex;
   flex-direction: column;
-  background-image: url(/src/images/background\ 1.jpeg);
+  background-image: url(/src/images/backgroundtara.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   width: 100%;
 }
