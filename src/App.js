@@ -5,7 +5,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import About from './Pages/About/about';
 import Home from './Pages/Home/home';
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
     <div className="app">
     <Routes>
     <Route exact path="/Vectra" element={<><Home/></>}/>
-    <Route exact path="/Vectra/About"element={<><About/></>}/>
     </Routes>
     </div>
     </Router>
