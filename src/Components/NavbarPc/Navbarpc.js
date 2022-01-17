@@ -8,9 +8,9 @@ function Navbarpc(){
     return(
         <div className="container-navbar-pc">
             <div className="link-container">
-                <Link to="/Vectra/"><button className="button breed">Home</button></Link>
-                <Link to="/Vectra/Breeding"><button className="button breed">Breeding</button></Link>
-                <Link to="/Vectra/Sale"><button className="button breed">FOR SALE</button></Link>
+                <Link to="/Vectra/"><button className="button">Home</button></Link>
+                <Link to="/Vectra/Breeding"><button className="button">Breeding</button></Link>
+                <Link to="/Vectra/Sale"><button className="button">FOR SALE</button></Link>
             </div>
             <div className="logo-container">
                 <a href="https://www.facebook.com/denis.denisuk.16"><FaFacebookSquare className="logo facebook"/></a>

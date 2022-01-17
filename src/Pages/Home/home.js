@@ -7,14 +7,16 @@ import Text from "../../Components/Text/text";
 import NavBar from "../../Components/NavBar/navbar";
 import Navbarpc from "../../Components/NavbarPc/Navbarpc";
 import Footer from "../../Components/Footer/footer";
+import homeData from "../../Components/TextData/homeData";
+
 
 function Home(){
     return(
-        <div className="home">
+        <div className="home page">
             <Header/>
             <NavBar/>
             <Navbarpc/>
-            <Text/>
+            <Text cardData = {homeData}/>
             <ImageSlider  content={sliderData} />
             <Footer/>
         </div>
