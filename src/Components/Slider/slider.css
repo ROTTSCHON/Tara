@@ -29,6 +29,8 @@
     align-content: center;
     width: 60vw;
     height: 60vh;
+    border-radius: 25px;
+
 }
 .slide.inactive {
     opacity: 0.5;
@@ -41,6 +43,7 @@
 }
 .slide
 {
+    border-radius: 25px;
     box-sizing:border-box;
     border: 4px solid rgb(255, 153, 0);
 }
