@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 25px;
+    z-index: 999;
 }
 
 .menu-bars
@@ -38,6 +39,8 @@
     transition: 850ms;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    z-index: 999;
+
 
 }
 

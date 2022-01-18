@@ -14,28 +14,31 @@ const Breed = ({ cardData }) => {
                 {cardData.map((data, index) => {
                     return (
                         <div className="cards" key={index}>
-                            <div className={detailsM ? 'card' : 'card-closed'} >
+                            <div className={detailsM ? 'infos' : 'infos closedM'} >
                                 <h1 className='name'>
-                                    {data.mascul}
+                                    {data.mascul.name}
                                 </h1>
                                 <p>
-                                    {data.tataMascul}<br/> {data.mamaMascul}
+                                    {data.mascul.father}<br/> {data.mascul.mother}
+                                </p>
+                                <p>
+                                    {data.mascul.titluri}
                                 </p>
                                 <FaAngleRight className={detailsM ? 'arrow arrow-details-down' : 'arrow arrow-details' } onClick={showDetailsM}/>
                                 <div className={detailsM ? 'detailsM-active' : 'detailsM'}>
-                                    <img src={data.imgM} alt="male"></img>
+                                    <img src={data.mascul.img} alt="male"></img>
                                 </div>
                             </div>
-                            <div className={detailsF ? 'card' : 'card-closed'}>
+                            <div className={detailsF ? 'infos' : 'infos closedF'}>
                                 <h1 className='name'>
-                                    {data.femela}
+                                    {data.femela.name}
                                 </h1>
                                 <p>
-                                    {data.tataFemela}<br/>{data.mamaFemela}
+                                    {data.femela.father}<br/>{data.femela.mother}
                                 </p>
                                 <FaAngleRight className={detailsF ? 'arrow arrow-details-down' : 'arrow arrow-details' } onClick={showDetailsF}/>
                                 <div className={detailsF ? 'detailsF-active' : 'detailsF'}>
-                                    <img src={data.imgF} alt="male"></img>
+                                    <img src={data.femela.img} alt="male"></img>
                                 </div>
                             </div>
                         </div>

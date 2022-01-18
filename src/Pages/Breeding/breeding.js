@@ -4,7 +4,7 @@ import Footer from '../../Components/Footer/footer'
 import Header from '../../Components/Header/header'
 import NavBar from '../../Components/NavBar/navbar'
 import Navbarpc from '../../Components/NavbarPc/Navbarpc'
-import newBreed from '../../Components/TextData/newBreedData'
+import WillAndTara from '../../Components/TextData/WillAndTara'
 import "./breeding.css"
 
 const Breeding = () => {
@@ -13,7 +13,7 @@ const Breeding = () => {
             <Header/>
             <Navbarpc/>
             <NavBar/>
-            <Breed cardData = {newBreed}/>
+            <Breed cardData = {WillAndTara}/>
             <Footer/>
         </div>
     )
