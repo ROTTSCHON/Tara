@@ -23,12 +23,24 @@ h1
 }
 .card
 {
+    position: relative;
     border: 3px solid white;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.13);
     width: 45%;
     padding: 3%;
     height: auto;
+    text-align: center;
+}
+.card-closed
+{
+    position: relative;
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.13);
+    width: 45%;
+    padding: 3%;
+    height: 40vh;
     text-align: center;
 }
 @media only screen and (max-width: 1100px) 
@@ -49,5 +61,12 @@ h1
         width: 90vw;
         margin-top: 2vh;
     }
+    .card-closed
+{
+    width: 90vw;
+    margin-top: 2vh;
+    height: auto;
+    text-align: center;
+}
     
 }

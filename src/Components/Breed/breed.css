@@ -5,11 +5,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 4px solid rgb(255, 153, 0);
+    border: 4px solid rgb(3, 94, 18);
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.13);
-
-
 }
 
 .breed
@@ -17,6 +15,67 @@
     width: 75vw;
     margin-bottom: 5vh;
 }
+.name
+{
+    font-size: 3rem;
+}
+.arrow-details
+{
+    transform: rotate(90deg);
+}
+.arrow-details-down
+{
+    transform: rotate(-90deg);
+}
+.detailsF
+{
+    height: 0;
+    /* transition: 850ms; */
+}
+.detailsF > img
+{
+    height: 0;
+
+    width: 0;
+}
+.detailsM
+{
+    height: 0;
+}
+.detailsM > img
+{
+    height: 0;
+    width: 0;
+}
+.detailsF-active
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 40vh;
+}
+.detailsF-active > img
+{
+    width:100%;
+    height: 100%;
+}
+.detailsM-active
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 40vh;
+}
+.detailsM-active > img
+{
+    width:100%;
+    height: 100%;
+}
+
+
+
 
 @media only screen and (max-width: 1100px) {
   .breed

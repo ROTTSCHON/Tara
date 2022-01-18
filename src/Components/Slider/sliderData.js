@@ -8,22 +8,22 @@ import ierarhie from "../../images/ierarhie.png"
 
 export const sliderData = [
     {
-        title:"VECTRA INTRACOM MIERESCHHALL",
+        title:"VECTRA MIERESCHHALL INTRACOM",
         urls: first
     },{
-        title:"VECTRA INTRACOM MIERESCHHALL",
+        title:"VECTRA MIERESCHHALL INTRACOM",
         urls: third
     }
     ,{
-        title:"VECTRA INTRACOM MIERESCHHALL",
+        title:"VECTRA MIERESCHHALL INTRACOM",
         urls: second
     },
     {
-        title:"VECTRA INTRACOM MIERESCHHALL",
+        title:"VECTRA MIERESCHHALL INTRACOM",
         urls: certificat
     },
     {
-        title:"VECTRA INTRACOM MIERESCHHALL",
+        title:"VECTRA MIERESCHHALL INTRACOM",
         urls: ierarhie
     }
     ]

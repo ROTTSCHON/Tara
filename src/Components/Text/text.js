@@ -11,28 +11,21 @@ function Text({cardData}){
                 </h1>
                 )
                 })}
-                    <div className="cards">
-                         <div className="card">
                          {cardData.map((data, index) =>
             {
                 return(
-                <p key={index}>
-                    {data.CardOne}
-                </p>
-                )
-                })}
-                        </div>
-                        <div className="card">
-                        {cardData.map((data, index) =>
-            {
-                return(
-                <p key={index}>
-                    {data.CardTwo}
-                </p>
-                )
-                })}
-                        </div>
-                    </div>
+                         <div className="cards" key={index}>
+                                <div className="card one">
+                                            <p>
+                                                {data.CardOne}
+                                            </p>
+                                </div>
+                                <div className="card two">
+                                            <p>
+                                                {data.CardTwo}
+                                            </p>
+                                </div>
+                        </div>)})}
             </div>
     )
 }
