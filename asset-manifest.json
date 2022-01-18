@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Vectra/static/css/main.55105f2c.css",
-    "main.js": "/Vectra/static/js/main.eaff7a7c.js",
+    "main.css": "/Vectra/static/css/main.d3bcaa34.css",
+    "main.js": "/Vectra/static/js/main.7ea329be.js",
     "static/js/787.f7922cfa.chunk.js": "/Vectra/static/js/787.f7922cfa.chunk.js",
     "static/media/ierarhie.png": "/Vectra/static/media/ierarhie.ea0751d0bf790183b336.png",
     "static/media/breeding.jpg": "/Vectra/static/media/breeding.de2104bbae377e32d4a1.jpg",
@@ -10,14 +10,16 @@
     "static/media/tara1.PNG": "/Vectra/static/media/tara1.5d412cc8f73082d28cc5.PNG",
     "static/media/certificat.png": "/Vectra/static/media/certificat.11f904b8cc9b03ba75a0.png",
     "static/media/background1.jpeg": "/Vectra/static/media/background1.d064605dada6472c2edf.jpeg",
+    "static/media/tara3.JPG": "/Vectra/static/media/tara3.67e333559b77c85492e9.JPG",
+    "static/media/wiliam.jpg": "/Vectra/static/media/wiliam.88c6ebf34b160bde9e10.jpg",
     "static/media/logotara.png": "/Vectra/static/media/logotara.0cc41f96fde09b7d963d.png",
     "index.html": "/Vectra/index.html",
-    "main.55105f2c.css.map": "/Vectra/static/css/main.55105f2c.css.map",
-    "main.eaff7a7c.js.map": "/Vectra/static/js/main.eaff7a7c.js.map",
+    "main.d3bcaa34.css.map": "/Vectra/static/css/main.d3bcaa34.css.map",
+    "main.7ea329be.js.map": "/Vectra/static/js/main.7ea329be.js.map",
     "787.f7922cfa.chunk.js.map": "/Vectra/static/js/787.f7922cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55105f2c.css",
-    "static/js/main.eaff7a7c.js"
+    "static/css/main.d3bcaa34.css",
+    "static/js/main.7ea329be.js"
   ]
 }
