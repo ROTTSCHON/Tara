@@ -30,7 +30,6 @@
 .detailsF
 {
     height: 0;
-    /* transition: 850ms; */
 }
 .detailsF > img
 {
@@ -84,4 +83,8 @@
       height: 30vh;
       object-fit: 100%;
   }  
+  .name
+  {
+      font-size: 2rem;
+  }
 }
