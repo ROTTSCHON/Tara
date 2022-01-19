@@ -16,7 +16,7 @@ export const navbarData = [
     },
     {
         title: "FOR SALE",
-        path: "/Vectra/Sales",
+        path: "/Vectra/Sale",
         icon: <FaIcons.FaDog/>,
         cName: 'nav-text'
     },

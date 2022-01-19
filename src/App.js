@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/home';
 import Breeding from './Pages/Breeding/breeding';
+import Sale from './Pages/Sale/sale';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Routes>
     <Route exact path="/Vectra" element={<><Home/></>}/>
     <Route exact path="/Vectra/Breeding" element={<><Breeding/></>}/>
+    <Route exact path="/Vectra/Sale" element={<><Sale/></>}/>
     </Routes>
     </div>
     </Router>
