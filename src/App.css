@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:wght@100&display=swap');
 *{
   margin: 0%;
   padding: 0%;
@@ -7,7 +7,6 @@
 .app
 {
   position: relative;
-  font-family: 'Luxurious Roman';
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -16,13 +15,12 @@
 
 .page
 {
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
   height: 100%;
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url(/src/images/background1.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #ac7f59;
   display: flex;
   align-items: center;
   flex-direction: column;

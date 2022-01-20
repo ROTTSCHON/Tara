@@ -1,23 +1,25 @@
-.cards-puppy
+*
 {
-    width: 90vw;
+    box-sizing: border-box;
 }
 .puppy-container
 {
-    width: 90vw;
+    width: 80vw;
     margin-top: 5%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.13);
-    border: 4px solid rgb(3, 94, 18);
-    padding: 3%;
+    border: 4px solid #724825;
     border-radius: 25px;
+    padding: 3%;
 }
 .puppy-container > h1
 {
     color: white;
     font-size: 3rem;
+    margin-bottom: 3%;
 }
 .puppy-big-container
 {
@@ -27,16 +29,19 @@
 
 .puppy-image
 {
-    width: 45%;
-    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     border-radius: 25px;
-    margin-top: 3%;
+    width: 45%;
+    height: auto;
 }
 .puppy-image-container
 {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .Ace,
 .Atena,
@@ -70,7 +75,7 @@
 .Atena-active> img,
 .Aslan-active > img
 {
-    width:100%;
+    width: 70vw;
     height: 100%;
     border-radius: 25px;
     transition: 850ms;
@@ -100,6 +105,12 @@
 .Aslan-active
 {
     height: 40vh;
+}
+.Ace-active > img,
+.Atena-active> img,
+.Aslan-active > img
+{
+    width: 100%;
 }
 .puppy-image
 {
