@@ -6,7 +6,7 @@ import logo from "../../images/logotara.png"
       return(
         <div className="header">
             <span><img src={logo} alt='logo'className='logo-image'/></span>
-            <h1>ROTTSCHON KENNEL</h1>
+            <h1 className='kennel'>ROTTSCHON KENNEL</h1>
             <span><img src={logo} alt='logo' className='logo-image'/></span>
           </div>
       )

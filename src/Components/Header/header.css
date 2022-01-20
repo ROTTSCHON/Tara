@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 .header
 {
     display: flex;
@@ -11,6 +11,12 @@
     font-size: 1.5em;
     margin-top: 1.5em;
     letter-spacing: 1vw;
+}
+.kennel
+{
+    font-family: 'Montserrat';
+    text-shadow: 4px 4px #000000;
+    font-weight: 600;
 }
 span
 {

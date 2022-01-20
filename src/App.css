@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
   margin: 0%;
   padding: 0%;
@@ -20,7 +20,7 @@
   height: 100%;
   min-height: 100vh;
   min-width: 100vw;
-  background-color: #ac7f59;
+  background-color: #b19a85;
   display: flex;
   align-items: center;
   flex-direction: column;
