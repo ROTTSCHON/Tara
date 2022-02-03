@@ -12,10 +12,11 @@ function Puppies({ puppiesData }) {
                 return (
                         <div className='puppy-container'  key={index}>
                             <h1>{puppy.name}</h1>
+                            <h2>{puppy.sex}</h2>
                             <div className='puppy-image-container'>
                                 <img src={puppy.front} alt='front-puppy' className='puppy-image' />
                             </div>
-                            <h2 className='price'>{puppy.price}</h2>
+                            <h3 className='price'>{puppy.price}</h3>
                             </div>
                     
                 )

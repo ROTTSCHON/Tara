@@ -56,7 +56,13 @@
 {
     font-size: 3rem;
     margin-bottom: 5%;
-    
+    font-weight: 600;
+}
+.puppy-container > h2
+{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    font-weight: 300;
 }
 .puppy-image-container
 {
