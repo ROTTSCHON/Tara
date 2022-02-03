@@ -4,19 +4,19 @@ import * as FaIcons from "react-icons/fa"
 export const navbarData = [
     {
         title: "Home",
-        path: "/",
+        path: "/Vectra/",
         icon: <FaIcons.FaHome/>,
         cName: 'nav-text'
     },
     {
         title: "Breeding",
-        path: "/Breeding",
+        path: "/Vectra/Breeding",
         icon: <FaIcons.FaInfo/>,
         cName: 'nav-text'
     },
     {
         title: "FOR SALE",
-        path: "/Sale",
+        path: "/Vectra/Sale",
         icon: <FaIcons.FaDog/>,
         cName: 'nav-text'
     },
