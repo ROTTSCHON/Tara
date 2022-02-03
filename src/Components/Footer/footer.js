@@ -11,7 +11,7 @@ export default function Footer() {
             <div className='footer-three-divs'>
                          <div className='footer-contact'>
                                             <h1>
-                                                Rottschon Kennel from Romania sell Rottweiler puppies with all documents.
+                                                Rottfreund Kennel from Romania sell Rottweiler puppies with all documents.
                                             </h1>
                                             <h2>Contact us here:</h2>
                                             <p>

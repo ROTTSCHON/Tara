@@ -1,26 +1,48 @@
-import aceFront from "../../images/1.jpg"
-import aceSide from "../../images/2.jpg"
-import pedigree from "../../images/pedigree.jpg"
+import apolo from "../../images/apolo.png"
+import atena from "../../images/atena.png"
+import aslan from "../../images/aslan.png"
+import angel from "../../images/angel.png"
+import alaska from "../../images/alaska.png"
+import amos from "../../images/amos.png"
+import ash from "../../images/ash.png"
+
 
 
 export const puppy = [
+        
         {
-            Ace:{
-            name:"Rottschon Ace",
-            front: aceFront,
-            side: aceSide,
-            pedigree: pedigree
-        },Atena:
+        name:"Rottfreund Ash",
+        front: ash,
+        
+        },
         {
-            name:"Rottschon Atena",
-            front: aceFront,
-            side: aceSide,
-            pedigree: pedigree
-        },Aslan:
+            name:"Rottfreund Alaska",
+            front: alaska,
+            
+        },
         {
-            name:"Rottschon Aslan",
-            front: aceFront,
-            side: aceSide,
-            pedigree: pedigree
-        }}
+            name:"Rottfreund Apolo",
+            front: apolo,
+            
+        },
+        {
+            name:"Rottfreund Aslan",
+            front: aslan,
+            
+        },
+        {
+            name:"Rottfreund Angel",
+            front: angel,
+            
+        },
+        {
+            name:"Rottfreund Amos",
+            front: amos,
+            
+        },
+        {
+            name:"Rottfreund Atena",
+            front: atena,
+            
+        }
     ]
