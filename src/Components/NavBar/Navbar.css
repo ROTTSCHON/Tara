@@ -15,6 +15,10 @@
     border-radius: 25px;
     z-index: 999;
 }
+.link-container
+{
+    padding: 3%;
+}
 
 .menu-bars
 {
