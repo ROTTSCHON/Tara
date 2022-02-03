@@ -8,60 +8,75 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.puppy-container
-{
-    width: 45%;
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.13);
-    border: 4px solid #724825;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    width: 60vw;
     border-radius: 25px;
-    padding: 3%;
-}
-.puppy-container > h1
-{
     color: white;
-    font-size: 3rem;
-    margin-bottom: 3%;
 }
-.puppy-big-container
+.title-litter
 {
-    border-radius: 25px;
-    border: 4px solid white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
 }
-
-.puppy-image
+.puppies
 {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.puppy-container
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 25px;
-    width: 90%;
-    height: auto;
+    padding: 3%;
+}
+.price
+{
+    margin-top: 3%;
+    font-size: 3rem;
+}
+.puppy-container > h1 
+{
+    font-size: 3rem;
+    margin-bottom: 5%;
+    
 }
 .puppy-image-container
 {
+    height: 80vh;
     width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: space-evenly;
 }
-.puppy
+.puppy-image
 {
-    height: 0px;
-    transition: 850ms;
-
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
 }
+
 
 @media only screen and (max-width:800px)
 {
+    .title-litter
+    {
+        font-size: 3rem;
+    }
     .puppy-image-container
 {
     flex-direction: column;
@@ -79,6 +94,7 @@
 .puppy-container
 {
     width: 90vw;
+    margin-bottom: 5%;
 }
 .puppy-image
 {
