@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c7acc388.css",
-    "main.js": "/static/js/main.298e75e3.js",
+    "main.js": "/static/js/main.7fde97d7.js",
     "static/js/787.f7922cfa.chunk.js": "/static/js/787.f7922cfa.chunk.js",
     "static/media/ierarhie.png": "/static/media/ierarhie.ea0751d0bf790183b336.png",
     "static/media/breeding.jpg": "/static/media/breeding.de2104bbae377e32d4a1.jpg",
@@ -21,11 +21,11 @@
     "static/media/logotara.png": "/static/media/logotara.3c7e95bf01f1ffa02ea5.png",
     "index.html": "/index.html",
     "main.c7acc388.css.map": "/static/css/main.c7acc388.css.map",
-    "main.298e75e3.js.map": "/static/js/main.298e75e3.js.map",
+    "main.7fde97d7.js.map": "/static/js/main.7fde97d7.js.map",
     "787.f7922cfa.chunk.js.map": "/static/js/787.f7922cfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7acc388.css",
-    "static/js/main.298e75e3.js"
+    "static/js/main.7fde97d7.js"
   ]
 }
