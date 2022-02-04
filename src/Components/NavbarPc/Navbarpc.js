@@ -10,7 +10,7 @@ function Navbarpc(){
             <div className="link-container">
                 <Link to="/"><button className="button">Home</button></Link>
                 <Link to="/Breeding"><button className="button">Breeding</button></Link>
-                <Link to="//Sale"><button className="button">FOR SALE</button></Link>
+                <Link to="/Sale"><button className="button">FOR SALE</button></Link>
             </div>
             <div className="logo-container">
                 <a href="https://www.facebook.com/Rottfreund.kennel"><FaFacebookSquare className="logo facebook"/></a>
