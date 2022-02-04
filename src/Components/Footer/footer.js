@@ -24,7 +24,7 @@ export default function Footer() {
                         </div>
            </div>
             <div className='footer-rights'>
-                <h3>Copyright © 2021-<span>{(new Date().getFullYear())}</span>rottschon.github.io/Vectra/ All rights reserved.
+                <h3>Copyright © 2021-<span>{(new Date().getFullYear())}</span>www.rottfreund.com All rights reserved.
                 Site designed and built by Front-End Developer: Adi Cotirla <a href="mailto:adioprea53@gmail.com">adioprea53@gmail.com</a>
                 </h3> 
             </div>
