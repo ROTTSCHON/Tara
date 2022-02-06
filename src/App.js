@@ -13,7 +13,7 @@ function App() {
     <Router basename='/' >
     <div className="app">
     <Routes>
-    <Route exact path="/" element={<><Home/></>}/>
+    <Route index path="/" element={<><Home/></>}/>
     <Route path="/Breeding" element={<><Breeding/></>}/>
     <Route path="/Sale" element={<><Sale/></>}/>
     </Routes>
