@@ -10,7 +10,7 @@ import Sale from './Pages/Sale/sale';
 
 function App() {
   return (
-    <Router >
+    <Router basename='/Vectra' >
     <div className="app">
     <Routes>
     <Route exact path="" element={<><Home/></>}/>
