@@ -10,12 +10,13 @@ import Sale from './Pages/Sale/sale';
 
 function App() {
   return (
-    <Router basename='/Vectra' >
+    <Router basename='/' >
     <div className="app">
     <Routes>
-    <Route exact path="" element={<><Home/></>}/>
+    <Route exact path="/" element={<><Home/></>}/>
     <Route exact path="/Breeding" element={<><Breeding/></>}/>
     <Route exact path="/Sale" element={<><Sale/></>}/>
+    <Route path="*" element={<><Home/></>}/>
     </Routes>
     </div>
     </Router>
