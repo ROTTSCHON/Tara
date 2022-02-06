@@ -11,7 +11,7 @@
 }
 .footer-logo
 {
-    width: 10vw;
+    width: 15vw;
     height: 20vh;
 }
 
@@ -26,7 +26,7 @@
 .footer-logo-container
 {
     left: 0;
-    top: 15%;
+    top: 20%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,13 @@
     align-items: center;
     text-align: center;
     align-content: center;
+}
+@media only screen and (max-width:1600px) {
+    .footer-logo
+    {
+        width: 15vw;
+        height: 15vh;
+    }
 }
 @media only screen and (max-width:800px) {
 

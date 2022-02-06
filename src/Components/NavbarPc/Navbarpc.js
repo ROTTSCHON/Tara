@@ -14,7 +14,7 @@ function Navbarpc(){
             </div>
             <div className="logo-container">
                 <a href="https://www.facebook.com/Rottfreund.kennel"><FaFacebookSquare className="logo facebook"/></a>
-                <a href="https://www.instagram.com/tara_the_little_rottie/"><FaInstagramSquare className="logo insta"/></a>
+                <a href="https://www.instagram.com/rottfreund_kennel/"><FaInstagramSquare className="logo insta"/></a>
             </div>
         </div>
     )

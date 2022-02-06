@@ -27,6 +27,8 @@ const Breed = ({ cardData }) => {
                                 <FaAngleRight className={detailsM ? 'arrow arrow-details-down' : 'arrow arrow-details' } onClick={showDetailsM}/>
                                 <div className={detailsM ? 'detailsM-active' : 'detailsM'}>
                                     <img src={data.mascul.img} alt="male"></img>
+                                    <img src={data.mascul.pedigree} alt="male"></img>
+
                                 </div>
                             </div>
                             <div className={detailsF ? 'infos' : 'infos closedF'}>
@@ -38,7 +40,9 @@ const Breed = ({ cardData }) => {
                                 </p>
                                 <FaAngleRight className={detailsF ? 'arrow arrow-details-down' : 'arrow arrow-details' } onClick={showDetailsF}/>
                                 <div className={detailsF ? 'detailsF-active' : 'detailsF'}>
-                                    <img src={data.femela.img} alt="male"></img>
+                                    <img src={data.femela.img} alt="female"></img>
+                                    <img src={data.femela.pedigree} alt="female"></img>
+
                                 </div>
                             </div>
                         </div>

@@ -1,10 +1,10 @@
-import apolo from "../../images/apolo.png"
-import atena from "../../images/atena.png"
-import aslan from "../../images/aslan.png"
-import angel from "../../images/angel.png"
-import alaska from "../../images/alaska.png"
-import amos from "../../images/amos.png"
-import ash from "../../images/ash.png"
+import apolo from "../../images/apolo.jpeg"
+import atena from "../../images/atena.jpeg"
+import aslan from "../../images/aslan.jpeg"
+import angel from "../../images/angel.jpeg"
+import alaska from "../../images/alaska.jpeg"
+import amos from "../../images/amos.jpeg"
+import ash from "../../images/ash.jpeg"
 
 
 

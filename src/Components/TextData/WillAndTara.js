@@ -1,4 +1,6 @@
-import will from "../../images/wiliam.jpg"
+import will from "../../images/wiliam.PNG"
+import pedigreeWill from "../../images/pedigreeWil.jpg"
+import pedigreeTara from "../../images/pedigreeTara.jpg"
 import tara from "../../images/breedtara.jpg"
 
 const WillAndTara = [
@@ -9,13 +11,15 @@ const WillAndTara = [
                 father: "F: TK's New Yorker",
                 mother:"M: Tili Kao Bumbarin",
                 img: will,
+                pedigree: pedigreeWill
             },
         femela :
             {
                 name: "VECTRA MIERESCHHALL INTRACOM",
                 father: "F: Black Rotthmans Zack",
                 mother: "M: Rott Guardian Ebonny",
-                img: tara
+                img: tara,
+                pedigree: pedigreeTara
             }
     }
 ]
