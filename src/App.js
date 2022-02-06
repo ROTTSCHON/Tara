@@ -10,7 +10,7 @@ import Sale from './Pages/Sale/sale';
 
 function App() {
   return (
-    <Router basename='/' >
+    <Router >
     <div className="app">
     <Routes>
     <Route index path="/" element={<><Home/></>}/>

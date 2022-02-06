@@ -24,7 +24,7 @@ export const puppy = [
             
         },
         {
-            name:"Rottfreund Apolo",
+            name:"Rottfreund Apollo",
             sex: "Male",
             front: apolo,
             price: "700€"
@@ -48,7 +48,7 @@ export const puppy = [
             price: "700€"
         },
         {
-            name:"Rottfreund Atena",
+            name:"Rottfreund Athena",
             sex: "Female",
             front: atena,
             price: "600€"
