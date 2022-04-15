@@ -26,6 +26,7 @@ export default function Footer() {
             <div className='footer-rights'>
                 <h3>Copyright © 2021-<span>{(new Date().getFullYear())}</span>www.rottfreund.com All rights reserved.
                 Site designed and built by Front-End Developer: Adi Cotirla <a href="mailto:adioprea53@gmail.com">adioprea53@gmail.com</a>
+                <a href='https://event.2performant.com/events/click?ad_type=quicklink&aff_code=66fef8958&unique=c91c384a7&redirect_to=https%253A//www.somproduct.ro/'>www.somproduct.ro</a>
                 </h3> 
             </div>
         </div>

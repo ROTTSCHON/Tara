@@ -14,43 +14,43 @@ export const puppy = [
             name:"Rottfreund Ash",
             sex: "Male",
             front: ash,
-            price: "700€"
+            price: "SOLD"
         },
         {
             name:"Rottfreund Alaska",
             sex: "Female",
             front: alaska,
-            price: "600€"
+            price: "SOLD"
             
         },
         {
             name:"Rottfreund Apollo",
             sex: "Male",
             front: apolo,
-            price: "700€"
+            price: "SOLD"
         },
         {
             name:"Rottfreund Aslan",
             sex: "Male",
             front: aslan,
-            price: "700€"
+            price: "SOLD"
         },
         {
             name:"Rottfreund Angel",
             sex: "Female",
             front: angel,
-            price: "600€"
+            price: "SOLD"
         },
         {
             name:"Rottfreund Amos",
             sex: "Male",
             front: amos,
-            price: "700€"
+            price: "SOLD"
         },
         {
             name:"Rottfreund Athena",
             sex: "Female",
             front: atena,
-            price: "600€"
+            price: "SOLD"
         }
     ]
